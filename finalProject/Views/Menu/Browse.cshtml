@@ -1,0 +1,37 @@
+﻿<!-- //Name: COMP2007 Enterprise Computing final project  - Summer 2016
+//Author: Mo Zou &　Pui in Kwok & Yang Li
+//Description: This assignment base on assginment 2, the MVC restaurant. Then add more security control and get motified website.
+-->
+
+
+@using finalProject.Models
+@model Menu
+
+
+@{
+    ViewBag.Title = "Browse";
+}
+
+<h2>Browsing Menu: @Model.Name</h2>
+<br />
+<br />
+<!-- item info -->
+<div class="row">
+    @foreach (Item item in Model.Items)
+    {
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="@item.URL" alt="@item.Title" />
+                <hr />
+                <p>@Html.ActionLink(item.Title, "Details", new { id = item.ItemID })</p>
+                <p>@item.ShortDescription</p>
+                <button style="width: 49%;" class="btn btn-default btn-lg">@Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = item.ItemID }, "")</button>
+                <button style="width: 49%;" class="btn btn-default btn-lg">@Html.ActionLink(" Details ", "Details", new { id = item.ItemID })</button>
+                    
+              
+            </div>
+        </div>
+    }
+</div>
+<br />
+@Html.ActionLink("Back to List", "Index")
