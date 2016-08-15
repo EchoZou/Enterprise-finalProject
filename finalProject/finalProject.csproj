@@ -201,20 +201,33 @@
     <Compile Include="ViewModels\ShoppingCartViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\bottle_water.jpg" />
+    <Content Include="Assets\Images\chicken_wing.jpg" />
     <Content Include="Assets\Images\coffee.jpg" />
-    <Content Include="Assets\Images\home-showcase.png" />
+    <Content Include="Assets\Images\fried_rice.jpg" />
+    <Content Include="Assets\Images\garden_salad.jpg" />
+    <Content Include="Assets\Images\garlic_bread.jpg" />
+    <Content Include="Assets\Images\grilled_salmon.jpg" />
+    <Content Include="Assets\Images\lamb.jpg" />
     <Content Include="Assets\Images\logo.png" />
     <Content Include="Assets\Images\mango_ice_cream.jpg" />
     <Content Include="Assets\Images\map.png" />
     <Content Include="Assets\Images\matcha_ice_cream.jpg" />
+    <Content Include="Assets\Images\meatballs_spaghetti.jpg" />
+    <Content Include="Assets\Images\nestea.jpg" />
+    <Content Include="Assets\Images\NewYork_cheesecake.jpg" />
     <Content Include="Assets\Images\NewYork_Steak.jpg" />
     <Content Include="Assets\Images\noodles.jpg" />
-    <Content Include="Assets\Images\placeholder.gif" />
     <Content Include="Assets\Images\pop.jpg" />
+    <Content Include="Assets\Images\pork_back_ribs.jpg" />
+    <Content Include="Assets\Images\pudding.jpg" />
     <Content Include="Assets\Images\red_bean_ice_cream.jpg" />
     <Content Include="Assets\Images\restaurant.jpg" />
     <Content Include="Assets\Images\restaurant2.JPEG" />
+    <Content Include="Assets\Images\roast_beef.jpg" />
+    <Content Include="Assets\Images\roast_chicken.jpg" />
     <Content Include="Assets\Images\seaweed_salad.jpg" />
+    <Content Include="Assets\Images\smoothie.jpg" />
     <Content Include="Assets\Images\tofu_soup.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
