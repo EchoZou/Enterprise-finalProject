@@ -1,7 +1,6 @@
 ﻿//Name: COMP2007 Enterprise Computing final project  - Summer 2016
 //Author: Mo Zou &　Pui in Kwok & Yang Li
-//Description: This assignment base on assginment 2, the MVC restaurant. Then add more security control and get motified website. 
-
+//Description: This controller will return relate view when action is called
 
 using System;
 using System.Collections.Generic;

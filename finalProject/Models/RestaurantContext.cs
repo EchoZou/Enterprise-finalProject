@@ -1,3 +1,8 @@
+//Name: COMP2007 Enterprise Computing final project  - Summer 2016
+//Author: Mo Zou &¡¡Pui in Kwok & Yang Li
+//Description: This model connect to database and get all the table from database,
+//             so relate model can use them
+
 namespace finalProject.Models
 {
     using System;

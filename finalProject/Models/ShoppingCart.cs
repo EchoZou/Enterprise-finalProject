@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Name: COMP2007 Enterprise Computing final project  - Summer 2016
+//Author: Mo Zou &　Pui in Kwok & Yang Li
+//Description: This model is user action relate to the shoppin cart
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Name: COMP2007 Enterprise Computing final project  - Summer 2016
+//Author: Mo Zou &　Pui in Kwok & Yang Li
+//Description: This controller will return relate view when user make the payment and complete payment
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

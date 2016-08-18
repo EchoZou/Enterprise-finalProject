@@ -1,4 +1,10 @@
-﻿@Html.ActionLink(" " + ViewData["CartCount"],
+﻿<!--
+//Name: COMP2007 Enterprise Computing final project  - Summer 2016
+//Author: Mo Zou &　Pui in Kwok & Yang Li
+//Description: This view will diaplay all the item's info user add to the cart
+-->
+
+@Html.ActionLink(" " + ViewData["CartCount"],
     "Index", "ShoppingCart", new { id = "cart-status" },
     new { @class = "fa fa-shopping-cart fa-lg", @title = "Shopping Cart",
     @id = "shoppingCart"})
